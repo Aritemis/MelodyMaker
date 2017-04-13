@@ -8,15 +8,12 @@ import java.io.*;
 
 public class Melody 
 {
-	
 	private Queue<Note> song;
-	
 	
 	public Melody(Queue<Note> song) 
 	{
 		this.song = song;
 	}
-	
 	
 	public void changeTempo(double ratio) 
 	{
@@ -63,7 +60,6 @@ public class Melody
 			song.add(current);
 		}
 		return duration;
-		
 	}
 	
 	public void play() 
